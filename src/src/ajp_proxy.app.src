@@ -1,0 +1,12 @@
+{application, ajp_proxy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ajp_proxy_app, []}},
+  {env, []}
+ ]}.
